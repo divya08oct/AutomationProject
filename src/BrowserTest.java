@@ -1,14 +1,13 @@
+import org.junit.Assert;
 import org.junit.Test;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
-import junit.framework.Assert;
 
 public class BrowserTest {
-
-	@SuppressWarnings("deprecation")
+	
 	@Test
 	public void getData() {
 		System.out.println("Hello");
